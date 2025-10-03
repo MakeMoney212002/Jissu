@@ -2,10 +2,9 @@ import os
 class script(object):
     START_TXT = """<b>Hey {}, {}
     
-🔅 I Can Provide You Any Movies, Web-Series, Anime, K-Dramas, Animation, etc!</b>
-<blockquote><b>🌱 Join : <a href="https://t.me/Pyroflix">PYROFLiX</a></b><blockquote>"""
+🔅 I Can Provide You Any Movies, Web-Series, Anime, K-Dramas, Animation, etc!\n🌱 Join : <a href="https://t.me/Pyroflix">PYROFLiX</a></b>"""
     
-    HELP_TXT = """<b>Follow Request Tips & Join Support Chat!</b>"""
+    HELP_TXT = """<b>🎃 Follow Request Tips & Join Support Chat!</b>"""
     
     TELE_TXT = """<b>/telegraph - sᴇɴᴅ ᴍᴇ ᴘɪᴄᴛᴜʀᴇ ᴏʀ ᴠɪᴅᴇᴏ ᴜɴᴅᴇʀ (5ᴍʙ)
 
@@ -274,7 +273,7 @@ User - {}"""
 ⏰ ᴄᴜꜱᴛᴏᴍɪꜱᴇᴅ ᴅᴀʏꜱ
 💸 ᴀᴄᴄᴏʀᴅɪɴɢ ᴛᴏ ᴅᴀʏꜱ ʏᴏᴜ ᴄʜᴏᴏꜱᴇ
 
-🏆 ɪꜰ ʏᴏᴜ ᴡᴀɴᴛ ᴀ ɴᴇᴡ ᴘʟᴀɴ ᴀᴘᴀʀᴛ ꜰʀᴏᴍ ᴛʜᴇ ɢɪᴠᴇɴ ᴘʟᴀɴ, ᴛʜᴇɴ ʏᴏᴜ ᴄᴀɴ ᴛᴀʟᴋ ᴛᴏ ᴏᴜʀ <a href='https://telegram.dog/JisshuDeveloperBot'>ᴏᴡɴᴇʀ</a> ᴅɪʀᴇᴄᴛʟʏ ʙʏ ᴄʟɪᴄᴋɪɴɢ ᴏɴ ᴛʜᴇ ᴄᴏɴᴛᴀᴄᴛ ʙᴜᴛᴛᴏɴ ɢɪᴠᴇɴ ʙᴇʟᴏᴡ.
+🏆 ɪꜰ ʏᴏᴜ ᴡᴀɴᴛ ᴀ ɴᴇᴡ ᴘʟᴀɴ ᴀᴘᴀʀᴛ ꜰʀᴏᴍ ᴛʜᴇ ɢɪᴠᴇɴ ᴘʟᴀɴ, ᴛʜᴇɴ ʏᴏᴜ ᴄᴀɴ ᴛᴀʟᴋ ᴛᴏ ᴏᴜʀ <a href='https://telegram.dog/Opkills'>Owner</a> ᴅɪʀᴇᴄᴛʟʏ ʙʏ ᴄʟɪᴄᴋɪɴɢ ᴏɴ ᴛʜᴇ ᴄᴏɴᴛᴀᴄᴛ ʙᴜᴛᴛᴏɴ ɢɪᴠᴇɴ ʙᴇʟᴏᴡ.
     
 👨‍💻 ᴄᴏɴᴛᴀᴄᴛ ᴛʜᴇ ᴏᴡɴᴇʀ ᴛᴏ ɢᴇᴛ ʏᴏᴜʀ ᴏᴛʜᴇʀ ᴘʟᴀɴ.
 
@@ -302,22 +301,26 @@ User - {}"""
 ‼️ ɢɪᴠᴇ ᴜꜱ ꜱᴏᴍᴇᴛɪᴍᴇ ᴛᴏ ᴀᴅᴅ ʏᴏᴜ ɪɴ ᴘʀᴇᴍɪᴜᴍ ʟɪꜱᴛ.
 </b>"""
     
-    ADMIN_CMD_TXT_TO1 = """<b><blockquote>
---------------Index File--------------
-➩ /index - Index all files
---------------Leave Link--------------
-➩ /leave {group ID} - Leave the specified group
--------------Send Message-------------
-➩ /send {user name} - Use this command as a reply to any message
-----------------Ban User---------------
-➩ /ban {user name} - Ban user 
-➩ /unban {user name} - Unban user
---------------Broadcast--------------
-➩ /broadcast - Broadcast a message to all users
-➩ /grp_broadcast - Broadcast a message to all connected groups
--------------------------------------------
-/ads - IB
-</blockquote></b>"""
+    ADMIN_CMD_TXT_TO1 = """<b>❌ Don't Send Like Noob ❌
+
+👉 Avatar Movie
+👉 The Batman Hindi
+👉 Avengers Movie Bhejo
+👉 Money Heist all Season
+👉 Squid Game Season 2 in Hindi
+👉 Wednesday Season 1 Episode 7 in Hindi
+
+✅ Send Like Proo ✅
+
+👉 The Batman
+👉 Avatar 2024
+👉 Avengers Endgame
+👉 Money Heist S03
+👉 Wednesday S01E07
+👉 Squid Game S02E01
+
+📌 Just Send Correct Name – Nothing Else
+📌 Spelling Must Be Accurate</b>"""
 
     ADMIN_CMD_TXT = """<b>❌ Don't Send Like Noob ❌
 
@@ -340,8 +343,7 @@ User - {}"""
 📌 Just Send Correct Name – Nothing Else
 📌 Spelling Must Be Accurate</b>"""
     
-    GROUP_TEXT = """<b>📮 Join Us Our Support Chat Group You Can Easily Chat With Admin In ThiS Group! ➔ <a href="https://t.me/+FUvMB2NpuQoxOGU1a">&lt;Click Here&gt;</a>
-    ❗ Urgent issue? Contact the admin immediately : @Opkills</b>"""
+    GROUP_TEXT = """<b>📮 Join Us Our Support Chat Group You Can Easily Chat With Admin In ThiS Group! ➔ <a href="https://t.me/+FUvMB2NpuQoxOGU1">&lt;Click Here&gt;</a>\n❗ Urgent issue? Contact the admin immediately : @Opkills</b>"""
 
     ALLADMINCMD_TXT = """<b>❌ Don't Send Like Noob ❌
 
@@ -369,7 +371,7 @@ User - {}"""
 
 ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : @PYROFLIX
 </b>""" 
-    GROUP_C_TEXT = """<b><b>📮 Join Us Our Support Chat Group You Can Easily Chat With Admin In ThiS Group! ➔ <a href="https://t.me/+FUvMB2NpuQoxOGU1a">&lt;Click Here&gt;</a>
-    ❗ Urgent issue? Contact the admin immediately : @Opkills</b></b>"""
+    GROUP_C_TEXT = """<b><b>📮 Join Us Our Support Chat Group You Can Easily Chat With Admin In ThiS Group! ➔ <a href="https://t.me/+FUvMB2NpuQoxOGU1">&lt;Click Here&gt;</a>\n❗ Urgent issue? Contact the admin immediately : @Opkills</b></b>"""
+
 
 
