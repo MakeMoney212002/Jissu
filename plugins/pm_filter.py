@@ -1018,7 +1018,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
           chat_id=query.message.chat.id,
           message_id=query.message.id,
           media=InputMediaAnimation(
-            media="",
+            media="https://giphy.com/gifs/the-simpsons-reaction-maggie-simpson-Rk8CZk8M7UHzG",
             caption=script.GROUP_TEXT.format(temp.B_LINK),
             parse_mode=enums.ParseMode.HTML
         ),
