@@ -764,7 +764,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         online = f"{URL}watch/{log_msg.id}/{fileName}?hash={get_hash(log_msg)}"
         download = f"{URL}{log_msg.id}/{fileName}?hash={get_hash(log_msg)}"
         btn = [[
-            InlineKeyboardButton('🧿 ꜱᴛʀᴇᴀᴍ ᴏɴ ᴡᴇʙ 🖥', web_app=WebAppInfo(url=online))
+       #     InlineKeyboardButton('🧿 ꜱᴛʀᴇᴀᴍ ᴏɴ ᴡᴇʙ 🖥', web_app=WebAppInfo(url=online))
         ],[
             InlineKeyboardButton("ᴡᴀᴛᴄʜ ᴏɴʟɪɴᴇ", url=online),
             InlineKeyboardButton("ꜰᴀꜱᴛ ᴅᴏᴡɴʟᴏᴀᴅ", url=download)
@@ -949,8 +949,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
     
     elif query.data == "help":
         buttons = [[
-		InlineKeyboardButton('• ᴀᴅᴍɪɴ •', callback_data='admincmd'),              
-		InlineKeyboardButton('• ɢʀᴏᴜᴘ sᴇᴛᴜᴘ •', callback_data='earn2')
+		InlineKeyboardButton('🃏 Request Tips', callback_data='admincmd'),              
+		InlineKeyboardButton('Support Chat ♻️', callback_data='earn2')
 	], [
 		InlineKeyboardButton('⋞ ʙᴀᴄᴋ ᴛᴏ ʜᴏᴍᴇ', callback_data='start')
 	]]    
@@ -1530,7 +1530,7 @@ async def auto_filter(client, msg, spoll=False , pm_mode = False):
             **locals()
         )
     else:
-        cap = f"<b>🔆 Result For ➔ {search}\n🗨️ Select Link & Press Start ↷</b>"
+        cap = f"<b>🔆 Result For ➔ {search}\n\n🗨️ Select Link & Press Start ↷</b>"
 
     ads, ads_name, _ = await mdb.get_advirtisment()
     ads_text = ""
