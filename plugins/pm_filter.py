@@ -153,7 +153,7 @@ async def admin_commands(client, query):
         chat_id=query.message.chat.id,
         message_id=query.message.id,
         media=InputMediaAnimation(
-            media="https://graph.org/file/11be37e22287b3d24b7f2.jpg",
+            media="",
             caption=script.ADMIN_CMD_TXT,
             parse_mode=enums.ParseMode.HTML
         ),
@@ -1018,7 +1018,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
           chat_id=query.message.chat.id,
           message_id=query.message.id,
           media=InputMediaAnimation(
-            media="https://graph.org/file/11be37e22287b3d24b7f2.jpg",
+            media="",
             caption=script.GROUP_TEXT.format(temp.B_LINK),
             parse_mode=enums.ParseMode.HTML
         ),
