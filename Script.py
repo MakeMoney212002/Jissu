@@ -2,7 +2,7 @@ import os
 class script(object):
     START_TXT = """<b>Hey {}, {}
     
-🔅 I Can Provide You Any Movies, Web-Series, Anime, K-Dramas, Animation, etc!\n🌱 Join : <a href="https://t.me/Pyroflix">PYROFLiX</a></b>"""
+🔅 I Can Provide You Any Movies, Web-Series, Anime, K-Dramas, Animation, etc!\n\n🌱 Join : <a href="https://t.me/Pyroflix">PYROFLiX</a></b>"""
     
     HELP_TXT = """<b>🎃 Follow Request Tips & Join Support Chat!</b>"""
     
@@ -343,7 +343,7 @@ User - {}"""
 📌 Just Send Correct Name – Nothing Else
 📌 Spelling Must Be Accurate</b>"""
     
-    GROUP_TEXT = """<b>📮 Join Us Our Support Chat Group You Can Easily Chat With Admin In ThiS Group! ➔ <a href="https://t.me/+FUvMB2NpuQoxOGU1">&lt;Click Here&gt;</a>\n❗ Urgent issue? Contact the admin immediately : @Opkills</b>"""
+    GROUP_TEXT = """<b>📮 Join Us Our Support Chat Group You Can Easily Chat With Admin In ThiS Group! ➔ <a href="https://t.me/+FUvMB2NpuQoxOGU1">&lt;Click Here&gt;</a>\n\n❗ Urgent issue? Contact the admin immediately : @Opkills</b>"""
 
     ALLADMINCMD_TXT = """<b>❌ Don't Send Like Noob ❌
 
@@ -371,7 +371,8 @@ User - {}"""
 
 ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : @PYROFLIX
 </b>""" 
-    GROUP_C_TEXT = """<b><b>📮 Join Us Our Support Chat Group You Can Easily Chat With Admin In ThiS Group! ➔ <a href="https://t.me/+FUvMB2NpuQoxOGU1">&lt;Click Here&gt;</a>\n❗ Urgent issue? Contact the admin immediately : @Opkills</b></b>"""
+    GROUP_C_TEXT = """<b><b>📮 Join Us Our Support Chat Group You Can Easily Chat With Admin In ThiS Group! ➔ <a href="https://t.me/+FUvMB2NpuQoxOGU1">&lt;Click Here&gt;</a>\n\n❗ Urgent issue? Contact the admin immediately : @Opkills</b></b>"""
+
 
 
 
