@@ -1,11 +1,11 @@
 import os
 class script(object):
-    START_TXT = """Hey {}, {}
+    START_TXT = """<b>Hey {}, {}
     
-🔅 I Can Provide You Any Movies, Web-Series, Anime, K-Dramas, Animation, etc!
-<blockquote>🌱 Join : <a href="https://t.me/Pyroflix">PYROFLiX</a>"""
+🔅 I Can Provide You Any Movies, Web-Series, Anime, K-Dramas, Animation, etc!</b>
+<blockquote><b>🌱 Join : <a href="https://t.me/Pyroflix">PYROFLiX</a></b><blockquote>"""
     
-    HELP_TXT = """<b>Join The Main Channel And Get All Info How To Use Bot</b>"""
+    HELP_TXT = """<b>Follow Request Tips & Join Support Chat!</b>"""
     
     TELE_TXT = """<b>/telegraph - sᴇɴᴅ ᴍᴇ ᴘɪᴄᴛᴜʀᴇ ᴏʀ ᴠɪᴅᴇᴏ ᴜɴᴅᴇʀ (5ᴍʙ)
 
@@ -319,129 +319,57 @@ User - {}"""
 /ads - IB
 </blockquote></b>"""
 
-    ADMIN_CMD_TXT = """<b><blockquote>
--------------User Premium------------
-➩ /add_premium {user ID} {Times} - Add a premium user
-➩ /remove_premium {user ID} - Remove a premium user
-➩ /add_redeem - Generate a redeem code
-➩ /premium_users - List all premium users
-➩ /refresh - Refresh free trial for users
--------------Update Channel----------
-➩ /set_muc {channel ID} - Set the movies update channel
---------------PM Search--------------
-➩ /pm_search_on - Enable PM search
-➩ /pm_search_off - Disable PM search
---------------Index File--------------
-➩ /index - Index all files
---------------Leave Link--------------
-➩ /leave {group ID} - Leave the specified group
---------------Broadcast--------------
-➩ /broadcast - /grp_broadcast
---------------Set Ads----------------
-➩ /set_ads {ads name}#{Times}#{photo URL} - <a href="https://t.me/Jisshu_developer/11">Explain</a>
-➩ /del_ads - Delete ads
--------------Top Trending------------
-➩ /setlist {Mirzapur, Money Heist} - <a href="https://t.me/Jisshu_developer/10">Explain</a>
-➩ /clearlist - Clear all lists
-</blockquote></b>"""
+    ADMIN_CMD_TXT = """<b>❌ Don't Send Like Noob ❌
+
+👉 Avatar Movie
+👉 The Batman Hindi
+👉 Avengers Movie Bhejo
+👉 Money Heist all Season
+👉 Squid Game Season 2 in Hindi
+👉 Wednesday Season 1 Episode 7 in Hindi
+
+✅ Send Like Proo ✅
+
+👉 The Batman
+👉 Avatar 2024
+👉 Avengers Endgame
+👉 Money Heist S03
+👉 Wednesday S01E07
+👉 Squid Game S02E01
+
+📌 Just Send Correct Name – Nothing Else
+📌 Spelling Must Be Accurate</b>"""
     
-    GROUP_TEXT = """<b><blockquote>
- --------------Set Verify-------------
-/set_verify {{website link}} {{website api}}
-/set_verify_2 {{website link}} {{website api}}
-/set_verify_3 {{website link}} {{website api}}
--------------Set Verify Time-----------
-/set_time_2 {{seconds}} Sᴇᴛ ᴛʜᴇ sᴇᴄᴏɴᴅ ᴠᴇʀɪғɪᴄᴀᴛɪᴏɴ ᴛɪᴍᴇ
-/set_time_3 {{seconds}} Sᴇᴛ ᴛʜᴇ ᴛʜɪʀᴅ ᴠᴇʀɪғɪᴄᴀᴛɪᴏɴ ᴛɪᴍᴇ
---------------Verify On Off------------
-/verifyoff - off verification <a href="https://telegram.dog/JisshuDeveloperBot">Cᴏɴᴛᴀᴄᴛ</a> ᴛʜᴇ ʙᴏᴛ ᴀᴅᴍɪɴ ғᴏʀ ᴀ ᴠᴇʀɪғʏ.ᴏғғ
-/verifyon - on verification 
-------------Set File Caption-----------
-/set_caption - set coustom file caption 
------------Set Imdb Template-----------
-/set_template - set IMDb template <a href="https://t.me/Jisshu_developer/8">Example</a>
---------------Set Tutorial-------------
-/set_tutorial - set verification tutorial 
--------------Set Log Channel-----------
---> ᴀᴅᴅ ʟᴏɢ ᴄʜᴀɴɴᴇʟ ʙʏ ᴛʜɪs ꜰᴏʀᴍᴀᴛ & ᴍᴀᴋᴇ sᴜʀᴇ ʙᴏᴛ ɪs ᴀᴅᴍɪɴ ɪɴ ʏᴏᴜʀ ʟᴏɢ ᴄʜᴀɴɴᴇʟ 👇
+    GROUP_TEXT = """<b>📮 Join Us Our Support Chat Group You Can Easily Chat With Admin In ThiS Group! ➔ <a href="https://t.me/+FUvMB2NpuQoxOGU1a">&lt;Click Here&gt;</a>
+    ❗ Urgent issue? Contact the admin immediately : @Opkills</b>"""
 
-/set_log {{log channel id}}
----------------------------------------
-ʏᴏᴜ ᴄᴀɴ ᴄʜᴇᴄᴋ ʏᴏᴜʀ ᴀʟʟ ᴅᴇᴛᴀɪʟs 
-ʙʏ /details ᴄᴏᴍᴍᴀɴᴅ
-</blockquote>
-Aᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀɴᴅ ᴍᴀᴋᴇ ᴍᴇ ᴀᴅᴍɪɴ ᴀɴᴅ ᴜsᴇ ᴀʟʟ ғᴇᴀᴛᴜʀᴇs😇</b>"""
+    ALLADMINCMD_TXT = """<b>❌ Don't Send Like Noob ❌
 
-    ALLADMINCMD_TXT = """<b><blockquote expandable>
--------------User Premium------------
-➩ /add_premium {user ID} {Times} - Add a premium user
-➩ /remove_premium {user ID} - Remove a premium user
-➩ /add_redeem - Generate a redeem code
-➩ /premium_users - List all premium users
-➩ /refresh - Refresh free trial for users
--------------Update Channel----------
-➩ /set_muc {channel ID} - Set the movies update channel
---------------PM Search--------------
-➩ /pm_search_on - Enable PM search
-➩ /pm_search_off - Disable PM search
---------------Verify ID--------------
-➩ /verifyon - on verification 
-➩ /verifyoff - off verification only for group
---------------Set Ads----------------
-➩ /set_ads {ads name}#{Times}#{photo URL} - <a href="https://t.me/Jisshu_developer/11">Explain</a>
-➩ /del_ads - Delete ads
--------------Top Trending------------
-➩ /setlist {Mirzapur, Money Heist} - <a href="https://t.me/Jisshu_developer/10">Explain</a>
-➩ /clearlist - Clear all lists
---------------Index File--------------
-➩ /index - Index all files
---------------Leave Link--------------
-➩ /leave {group ID} - Leave the specified group
--------------Send Message-------------
-➩ /send {user-name} - Use this command as a reply to any message
-----------------Ban User---------------
-➩ /ban {user-name} - Ban user 
-➩ /unban {user-name} - Unban user
---------------Broadcast--------------
-➩ /broadcast - Broadcast a message to all users
-➩ /grp_broadcast - Broadcast a message to all connected groups
--------------------------------------------
-/ads - to set advertisement
-/reset_group - reset to default
-/movie_update_off - update off
-/movie_update_on - Movie Update on</blockquote></b>"""
+👉 Avatar Movie
+👉 The Batman Hindi
+👉 Avengers Movie Bhejo
+👉 Money Heist all Season
+👉 Squid Game Season 2 in Hindi
+👉 Wednesday Season 1 Episode 7 in Hindi
+
+✅ Send Like Proo ✅
+
+👉 The Batman
+👉 Avatar 2024
+👉 Avengers Endgame
+👉 Money Heist S03
+👉 Wednesday S01E07
+👉 Squid Game S02E01
+
+📌 Just Send Correct Name – Nothing Else
+📌 Spelling Must Be Accurate</b>"""
 
     SOURCE_TXT = """<b>
 ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ʜᴇʀᴇ ◉› :<blockquote><a href="https://t.me/JISSHU_BOTS/589">&lt;Click Here&gt;</a></blockquote>
 
-ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : @jisshu_bots
+ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : @PYROFLIX
 </b>""" 
-    GROUP_C_TEXT = """<b><blockquote>
- --------------Set Verify-------------
-/set_verify {website link} {website api}
-/set_verify_2 {website link} {website api}
-/set_verify_3 {website link} {website api}
--------------Set Verify Time-----------
-/set_time_2 {seconds} Sᴇᴛ ᴛʜᴇ sᴇᴄᴏɴᴅ ᴠᴇʀɪғɪᴄᴀᴛɪᴏɴ ᴛɪᴍᴇ
-/set_time_3 {seconds} Sᴇᴛ ᴛʜᴇ ᴛʜɪʀᴅ ᴠᴇʀɪғɪᴄᴀᴛɪᴏɴ ᴛɪᴍᴇ
---------------Verify On Off------------
-/verifyoff {verify.off code} - off verification <a href="https://telegram.dog/JisshuDeveloperBot">Cᴏɴᴛᴀᴄᴛ</a> ᴛʜᴇ ʙᴏᴛ ᴀᴅᴍɪɴ ғᴏʀ ᴀ ᴠᴇʀɪғʏ.ᴏғғ ᴄᴏᴅᴇ
-/verifyon - on verification 
-------------Set File Caption-----------
-/set_caption - set coustom file caption 
------------Set Imdb Template-----------
-/set_template - set IMDb template <a href="https://t.me/Jisshu_developer/8">Example</a>
---------------Set Tutorial-------------
-/set_tutorial {tutorial link} - set 1 verification tutorial 
-/set_tutorial_2 {tutorial link} - set 2 verification tutorial 
-/set_tutorial_3 {tutorial link} - set 3 verification tutorial 
--------------Set Log Channel-----------
---> ᴀᴅᴅ ʟᴏɢ ᴄʜᴀɴɴᴇʟ ʙʏ ᴛʜɪs ꜰᴏʀᴍᴀᴛ & ᴍᴀᴋᴇ sᴜʀᴇ ʙᴏᴛ ɪs ᴀᴅᴍɪɴ ɪɴ ʏᴏᴜʀ ʟᴏɢ ᴄʜᴀɴɴᴇʟ 👇
+    GROUP_C_TEXT = """<b><b>📮 Join Us Our Support Chat Group You Can Easily Chat With Admin In ThiS Group! ➔ <a href="https://t.me/+FUvMB2NpuQoxOGU1a">&lt;Click Here&gt;</a>
+    ❗ Urgent issue? Contact the admin immediately : @Opkills</b></b>"""
 
-/set_log {log channel id}
----------------------------------------
-ʏᴏᴜ ᴄᴀɴ ᴄʜᴇᴄᴋ ʏᴏᴜʀ ᴀʟʟ ᴅᴇᴛᴀɪʟs 
-ʙʏ /details ᴄᴏᴍᴍᴀɴᴅ
-</blockquote>
-Iғ ʏᴏᴜ ʜᴀᴠᴇ ᴀɴʏ ᴅᴏᴜʙᴛs ᴘʟᴇᴀsᴇ <a href="https://telegram.dog/opkills">ᴄᴏɴᴛᴀᴄᴛ</a> ᴍʏ <a href="https://telegram.dog/opkills">PYROFLIX</a></b>"""
 
