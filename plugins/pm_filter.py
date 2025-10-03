@@ -972,9 +972,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
 		#	InlineKeyboardButton('‼️ ᴅɪꜱᴄʟᴀɪᴍᴇʀ ‼️', callback_data='disclaimer')
 		],[
 	#		InlineKeyboardButton('sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ', callback_data='source'),
-    #                    InlineKeyboardButton('ᴄᴏɴᴛʀɪʙᴜᴛᴏʀs',callback_data='mydevelopers')
+      #                  InlineKeyboardButton('ᴄᴏɴᴛʀɪʙᴜᴛᴏʀs',callback_data='mydevelopers')
 		],[
-	#		InlineKeyboardButton('⋞ ʜᴏᴍᴇ', callback_data='start')]]
+			InlineKeyboardButton('⋞ ʜᴏᴍᴇ', callback_data='start')]]
                 ),
             disable_web_page_preview = True
 	)
