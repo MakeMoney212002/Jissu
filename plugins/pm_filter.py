@@ -153,7 +153,7 @@ async def admin_commands(client, query):
         chat_id=query.message.chat.id,
         message_id=query.message.id,
         media=InputMediaAnimation(
-            media="",
+            media="https://cdn.jsdelivr.net/gh/Jisshubot/JISSHU_BOTS/Video.mp4/Welcome_video_20240921_184741_0001.gif",
             caption=script.ADMIN_CMD_TXT,
             parse_mode=enums.ParseMode.HTML
         ),
@@ -1018,7 +1018,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
           chat_id=query.message.chat.id,
           message_id=query.message.id,
           media=InputMediaAnimation(
-            media="https://giphy.com/gifs/the-simpsons-reaction-maggie-simpson-Rk8CZk8M7UHzG",
+            media="https://cdn.jsdelivr.net/gh/Jisshubot/JISSHU_BOTS/Video.mp4/Welcome_video_20240921_184741_0001.gif",
             caption=script.GROUP_TEXT.format(temp.B_LINK),
             parse_mode=enums.ParseMode.HTML
         ),
