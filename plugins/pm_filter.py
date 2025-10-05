@@ -949,7 +949,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     
     elif query.data == "help":
         buttons = [[
-		InlineKeyboardButton('🃏 Request Tips', callback_data='admincmd'),              
+#		InlineKeyboardButton('🃏 Request Tips', callback_data='admincmd'),              
 		InlineKeyboardButton('Support Chat ♻️', callback_data='earn2')
 	], [
 		InlineKeyboardButton('⋞ ʙᴀᴄᴋ ᴛᴏ ʜᴏᴍᴇ', callback_data='start')
