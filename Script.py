@@ -4,7 +4,26 @@ class script(object):
     
 🔅 I Can Provide You Any Movies, Web-Series, Anime, K-Dramas, Animation, etc!\n\n🌱 Join : <a href="https://t.me/Pyroflix">PYROFLiX</a></b>"""
     
-    HELP_TXT = """<b>🎃 Follow Request Tips & Join Support Chat!</b>"""
+    HELP_TXT = """<b>❌ Don't Send Like Noob ❌
+
+👉 Avatar Movie
+👉 The Batman Hindi
+👉 Avengers Movie Bhejo
+👉 Money Heist all Season
+👉 Squid Game Season 2 in Hindi
+👉 Wednesday Season 1 Episode 7 in Hindi
+
+✅ Send Like Proo ✅
+
+👉 The Batman
+👉 Avatar 2024
+👉 Avengers Endgame
+👉 Money Heist S03
+👉 Wednesday S01E07
+👉 Squid Game S02E01
+
+📌 Just Send Correct Name – Nothing Else
+📌 Spelling Must Be Accurate</b>"""
     
     TELE_TXT = """<b>/telegraph - sᴇɴᴅ ᴍᴇ ᴘɪᴄᴛᴜʀᴇ ᴏʀ ᴠɪᴅᴇᴏ ᴜɴᴅᴇʀ (5ᴍʙ)
 
@@ -372,6 +391,7 @@ User - {}"""
 ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : @PYROFLIX
 </b>""" 
     GROUP_C_TEXT = """<b><b>📮 Join Us Our Support Chat Group You Can Easily Chat With Admin In ThiS Group! ➔ <a href="https://t.me/+FUvMB2NpuQoxOGU1">&lt;Click Here&gt;</a>\n\n❗ Urgent issue? Contact the admin immediately : @Opkills</b></b>"""
+
 
 
 
