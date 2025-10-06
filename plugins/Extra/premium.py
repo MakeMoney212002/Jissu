@@ -59,7 +59,7 @@ async def check_plans_cmd(client, message):
     else:
         btn = [ 
             [InlineKeyboardButton("ɢᴇᴛ ꜰʀᴇᴇ ᴛʀᴀɪʟ ꜰᴏʀ 𝟻 ᴍɪɴᴜᴛᴇꜱ ☺️", callback_data="give_trial")],
-            [InlineKeyboardButton("ʙᴜʏ sᴜʙsᴄʀɪᴘᴛɪᴏɴ : ʀᴇᴍᴏᴠᴇ ᴀᴅs", callback_data="seeplans")],
+            [InlineKeyboardButton("ʙᴜʏ sᴜʙsᴄʀɪᴘᴛɪᴏɴ : ʀᴇᴍᴏᴠᴇ ᴀᴅs", callback_data="free")],
         ]
         reply_markup = InlineKeyboardMarkup(btn)
         await message.reply_text(f"😔 ʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴀɴʏ ᴘʀᴇᴍɪᴜᴍ ꜱᴜʙꜱᴄʀɪᴘᴛɪᴏɴ. ɪꜰ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ʙᴜʏ ᴘʀᴇᴍɪᴜᴍ ᴄʟɪᴄᴋ ᴏɴ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴ.\n\nᴛᴏ ᴜꜱᴇ ᴏᴜʀ ᴘʀᴇᴍɪᴜᴍ ꜰᴇᴀᴛᴜʀᴇꜱ ꜰᴏʀ 5 ᴍɪɴᴜᴛᴇꜱ ᴄʟɪᴄᴋ ᴏɴ ꜰʀᴇᴇ ᴛʀᴀɪʟ ʙᴜᴛᴛᴏɴ.",reply_markup=reply_markup)
