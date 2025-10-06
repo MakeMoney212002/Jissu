@@ -1465,7 +1465,7 @@ async def auto_filter(client, msg, spoll=False , pm_mode = False):
      #           InlineKeyboardButton("ʟᴀɴɢᴜᴀɢᴇ", callback_data=f"languages#{key}#{offset}#{req}")
             ])
             btn.insert(1,[
-                InlineKeyboardButton("「  The End  」", callback_data=buttons)
+                InlineKeyboardButton("「  The End  」", callback_data="buttons")
             ])
     else:
         btn.insert(0,[
@@ -1473,7 +1473,7 @@ async def auto_filter(client, msg, spoll=False , pm_mode = False):
             ])
 
         btn.insert(1,[
-            InlineKeyboardButton("「  The End  」", callback_data=buttons)
+            InlineKeyboardButton("「  The End  」", callback_data="buttons")
         ])
                              
     if spoll:
