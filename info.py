@@ -50,7 +50,7 @@ REQUEST_CHANNEL = int(request_channel) if request_channel and id_pattern.search(
 MOVIE_UPDATE_CHANNEL = int(environ.get('MOVIE_UPDATE_CHANNEL', '-1002779791560')) 
 
 # Added Link Here Not Id 
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/+TRF6MZx8iBthNmI1')
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/PYROFLIX_SUPPORT')
 MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/+pw6iWHCyc-kwOWI1')
 
 # Verification
