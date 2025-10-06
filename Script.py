@@ -362,7 +362,7 @@ User - {}"""
 📌 Just Send Correct Name – Nothing Else
 📌 Spelling Must Be Accurate</b>"""
     
-    GROUP_TEXT = """<b>📮 Join Us Our Support Chat Group You Can Easily Chat With Admin In ThiS Group! ➔ <a href="https://t.me/+FUvMB2NpuQoxOGU1">&lt;Click Here&gt;</a>\n\n❗ Urgent issue? Contact the admin immediately : @Opkills</b>"""
+    GROUP_TEXT = """<b>📮 Join Us Our Support Chat Group You Can Easily Chat With Admin In ThiS Group! ➔ <a href="https://t.me/PYROFLIX_SUPPORT">&lt;Click Here&gt;</a>\n\n❗ Urgent issue? Contact the admin immediately : @Opkills</b>"""
 
     ALLADMINCMD_TXT = """<b>❌ Don't Send Like Noob ❌
 
@@ -390,7 +390,8 @@ User - {}"""
 
 ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : @PYROFLIX
 </b>""" 
-    GROUP_C_TEXT = """<b><b>📮 Join Us Our Support Chat Group You Can Easily Chat With Admin In ThiS Group! ➔ <a href="https://t.me/+FUvMB2NpuQoxOGU1">&lt;Click Here&gt;</a>\n\n❗ Urgent issue? Contact the admin immediately : @Opkills</b></b>"""
+    GROUP_C_TEXT = """<b><b>📮 Join Us Our Support Chat Group You Can Easily Chat With Admin In ThiS Group! ➔ <a href="https://t.me/PYROFLIX_SUPPORT">&lt;Click Here&gt;</a>\n\n❗ Urgent issue? Contact the admin immediately : @Opkills</b></b>"""
+
 
 
 
