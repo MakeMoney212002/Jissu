@@ -33,7 +33,7 @@ class script(object):
 👋 Just 3 Steps To Get Your File
 
 1️⃣ Join Our Channel
-2️⃣ Tap “Joined” After Subscribing 
+2️⃣ Tap “Try Again” After Subscribing !
 3️⃣ Boom! Your File Will Be Sent 🎉📂</b>"""
     
     TTS_TXT="""
@@ -52,7 +52,7 @@ class script(object):
     
     SUPPORT_GRP_MOVIE_TEXT = """<b>ʜᴇʏ {}
 
-ɪ ғᴏᴜɴᴅ {} ʀᴇsᴜʟᴛs 🎁,
+ɪ ғᴏᴜɴᴅ {} ʀᴇsᴜʟᴛs 👀,
 ʙᴜᴛ ɪ ᴄᴀɴ'ᴛ sᴇɴᴅ ʜᴇʀᴇ 🤞🏻
 ᴘʟᴇᴀsᴇ ᴊᴏɪɴ ᴏᴜʀ ʀᴇǫᴜᴇsᴛ ɢʀᴏᴜᴘ ᴛᴏ ɢᴇᴛ ✨</b>"""
 
@@ -133,21 +133,21 @@ User - {}"""
 
     ALRT_TXT = """🔆 Don't Click Other's Request. Send Own ❗\n\n🔆 दूसरों के रिक्वेस्ट पर क्लिक न करें। अपनी रिक्वेस्ट भेजें ❗"""
 
-    OLD_ALRT_TXT = """🔆 You Are Using Old Request ❗\n🔆Send New Request ❗"""
+    OLD_ALRT_TXT = """🔆 You Are Using Old Request ❗\n🔆 Send New Request ❗"""
 
     NO_RESULT_TXT = """<b>ᴛʜɪs ᴍᴇssᴀɢᴇ ɪs ɴᴏᴛ ʀᴇʟᴇᴀsᴇᴅ ᴏʀ ᴀᴅᴅᴇᴅ ɪɴ ᴍʏ ᴅᴀᴛᴀʙᴀsᴇ 🙄</b>"""
     
-    I_CUDNT = """🤧 𝗛𝗲𝗹𝗹𝗼 {}
+    I_CUDNT = """<b>🤧 Hello {}
 
-𝗜 𝗰𝗼𝘂𝗹𝗱𝗻'𝘁 𝗳𝗶𝗻𝗱 𝗮𝗻𝘆 𝗺𝗼𝘃𝗶𝗲 𝗼𝗿 𝘀𝗲𝗿𝗶𝗲𝘀 𝗶𝗻 𝘁𝗵𝗮𝘁 𝗻𝗮𝗺𝗲.. 😐"""
+I Couldn't Find Anything Related That. Follow Request Tips</b>"""
 
-    I_CUD_NT = """😑 𝗛𝗲𝗹𝗹𝗼 {}
+    I_CUD_NT = """<b>😑 Sorry {}
 
-𝗜 𝗰𝗼𝘂𝗹𝗱𝗻'𝘁 𝗳𝗶𝗻𝗱 𝗮𝗻𝘆𝘁𝗵𝗶𝗻𝗴 𝗿𝗲𝗹𝗮𝘁𝗲𝗱 𝘁𝗼 𝘁𝗵𝗮𝘁 😞... 𝗰𝗵𝗲𝗰𝗸 𝘆𝗼𝘂𝗿 𝘀𝗽𝗲𝗹𝗹𝗶𝗻𝗴."""
+I Couldn't Find Related That Or Spelling Is Wrong Follow Request Tips! </b>"""
     
-    CUDNT_FND = """🤧 𝗛𝗲𝗹𝗹𝗼 {}
+    CUDNT_FND = """<b>😕 Spelling Mistake Bro ! {}
 
-𝗜 𝗰𝗼𝘂𝗹𝗱𝗻'𝘁 𝗳𝗶𝗻𝗱 𝗮𝗻𝘆𝘁𝗵𝗶𝗻𝗴 𝗿𝗲𝗹𝗮𝘁𝗲𝗱 𝘁𝗼 𝘁𝗵𝗮𝘁 𝗱𝗶𝗱 𝘆𝗼𝘂 𝗺𝗲𝗮𝗻 𝗮𝗻𝘆 𝗼𝗻𝗲 𝗼𝗳 𝘁𝗵𝗲𝘀𝗲 ?? 👇"""
+Choose Correct Name Or Close ! 👇</b>"""
     
     FONT_TXT= """<b>ʏᴏᴜ ᴄᴀɴ ᴜsᴇ ᴛʜɪs ᴍᴏᴅᴇ ᴛᴏ ᴄʜᴀɴɢᴇ ʏᴏᴜʀ ꜰᴏɴᴛs sᴛʏʟᴇ, ᴊᴜsᴛ sᴇɴᴅ ᴍᴇ ʟɪᴋᴇ ᴛʜɪs ꜰᴏʀᴍᴀᴛ
 
@@ -388,6 +388,7 @@ User - {}"""
 ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : @PYROFLIX
 </b>""" 
     GROUP_C_TEXT = """<b><b>📮 Join Us Our Support Chat Group You Can Easily Chat With Admin In ThiS Group! ➔ <a href="https://t.me/PYROFLIX_SUPPORT">&lt;Click Here&gt;</a>\n\n❗ Urgent issue? Contact the admin immediately : @Opkills</b></b>"""
+
 
 
 
