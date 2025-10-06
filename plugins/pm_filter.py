@@ -688,7 +688,8 @@ async def advantage_spoll_choker(bot, query):
 async def pmfile_cb(client, query):
     _, userid, fileid = query.data.split("#")
     if query.from_user.id != userid:
-        await query.answer("Please Request Your Own!!", show_alert=True)
+        await query.answer("🔆 Don't Click Other's Request. Send Own ❗\n\n🔆 दूसरों के रिक्वेस्ट पर क्लिक न करें। अपनी रिक्वेस्ट भेजें ❗
+", show_alert=True)
         return
 
     await query.answer(f"https://telegram.dog/{temp.U_NAME}?start=file_{query.message.chat.id}_{fileid}")
@@ -890,7 +891,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         btn = [[
             InlineKeyboardButton('🍁 ᴄʜᴇᴄᴋ ᴀʟʟ ᴘʟᴀɴꜱ & ᴘʀɪᴄᴇꜱ 🍁', callback_data='free')
         ],[
-            InlineKeyboardButton('• 𝗖𝗹𝗼𝘀𝗲 •', callback_data='close_data')
+            InlineKeyboardButton('Close', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(btn)
         m=await query.message.reply_sticker("CAACAgUAAx0CZz_GMwACMBdnXZA4SejgJ6a_0TrNzOfn9ImI_QACNwsAArT4iFVaZPJf8ldVVh4E") 
@@ -927,7 +928,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('📲 ᴄᴏɴᴛᴀᴄᴛ ᴛᴏ ᴏᴡɴᴇʀ', url=f'https://telegram.me/{OWNER_USERNAME}')
         ],[
-            InlineKeyboardButton('• 𝗕𝗮𝗰𝗸 •', callback_data='free')
+            InlineKeyboardButton('Back', callback_data='free')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await client.edit_message_media(
@@ -1412,12 +1413,12 @@ async def auto_filter(client, msg, spoll=False , pm_mode = False):
         search = message.text
         chat_id = message.chat.id
         settings = await get_settings(chat_id)
-        searching_msg = await msg.reply_text(f'🔎 sᴇᴀʀᴄʜɪɴɢ {search}')
+        searching_msg = await msg.reply_text(f'🔎 Searching {search}')
         files, offset, total_results = await get_search_results(search)
         await searching_msg.delete()
         if not files:
             if settings["spell_check"]:
-                ai_sts = await msg.reply_text(f'ᴄʜᴇᴄᴋɪɴɢ ʏᴏᴜʀ sᴘᴇʟʟɪɴɢ...')
+                ai_sts = await msg.reply_text(f'Checking Spelling...')
                 is_misspelled = await ai_spell_check(search)
                 if is_misspelled:
               #      await ai_sts.edit(f'<b><i>ʏᴏᴜʀ ꜱᴘᴇʟʟɪɴɢ ɪꜱ ᴡʀᴏɴɢ ɴᴏᴡ ᴅᴇᴠɪʟ ꜱᴇᴀʀᴄʜɪɴɢ ᴡɪᴛʜ ᴄᴏʀʀᴇᴄᴛ ꜱᴘᴇʟʟɪɴɢ - <code>{is_misspelled}</code></i></b>')
@@ -1465,7 +1466,7 @@ async def auto_filter(client, msg, spoll=False , pm_mode = False):
      #           InlineKeyboardButton("ʟᴀɴɢᴜᴀɢᴇ", callback_data=f"languages#{key}#{offset}#{req}")
             ])
             btn.insert(1,[
-                InlineKeyboardButton("「  The End  」", user_id=ADMINS[0])
+                InlineKeyboardButton("「  The End  」", callback_data=buttons)
             ])
     else:
         btn.insert(0,[
@@ -1473,7 +1474,7 @@ async def auto_filter(client, msg, spoll=False , pm_mode = False):
             ])
 
         btn.insert(1,[
-            InlineKeyboardButton("「  The End  」", user_id=ADMINS[0])
+            InlineKeyboardButton("「  The End  」", callback_data=buttons)
         ])
                              
     if spoll:
