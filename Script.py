@@ -135,19 +135,19 @@ User - {}"""
 
     OLD_ALRT_TXT = """🔆 You Are Using Old Request ❗\n🔆 Send New Request ❗"""
 
-    NO_RESULT_TXT = """<b>ᴛʜɪs ᴍᴇssᴀɢᴇ ɪs ɴᴏᴛ ʀᴇʟᴇᴀsᴇᴅ ᴏʀ ᴀᴅᴅᴇᴅ ɪɴ ᴍʏ ᴅᴀᴛᴀʙᴀsᴇ 🙄</b>"""
+    NO_RESULT_TXT = """<b>This Is Not Released Or Added In My Data Sorry 🙄</b>"""
     
-    I_CUDNT = """<b>🤧 Hello {}
+    I_CUDNT = """<b>🤧 Sorry {}
 
 I Couldn't Find Anything Related That. Follow Request Tips</b>"""
 
     I_CUD_NT = """<b>😑 Sorry {}
 
-I Couldn't Find Related That Or Spelling Is Wrong Follow Request Tips! </b>"""
+I Couldn't Find Related That Or Spelling Is Wrong Follow Request Tips!</b>"""
     
     CUDNT_FND = """<b>😕 Spelling Mistake Bro ! {}
 
-Choose Correct Name Or Close ! 👇</b>"""
+Choose Correct Name Or Close 👇</b>"""
     
     FONT_TXT= """<b>ʏᴏᴜ ᴄᴀɴ ᴜsᴇ ᴛʜɪs ᴍᴏᴅᴇ ᴛᴏ ᴄʜᴀɴɢᴇ ʏᴏᴜʀ ꜰᴏɴᴛs sᴛʏʟᴇ, ᴊᴜsᴛ sᴇɴᴅ ᴍᴇ ʟɪᴋᴇ ᴛʜɪs ꜰᴏʀᴍᴀᴛ
 
@@ -388,6 +388,7 @@ Choose Correct Name Or Close ! 👇</b>"""
 ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : @PYROFLIX
 </b>""" 
     GROUP_C_TEXT = """<b><b>📮 Join Us Our Support Chat Group You Can Easily Chat With Admin In ThiS Group! ➔ <a href="https://t.me/PYROFLIX_SUPPORT">&lt;Click Here&gt;</a>\n\n❗ Urgent issue? Contact the admin immediately : @Opkills</b></b>"""
+
 
 
 
