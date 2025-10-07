@@ -206,10 +206,10 @@ async def start(client:Client, message):
                 logger.error("Make sure Bot is admin in Forcesub channel")
                 return
             btn = [[
-                InlineKeyboardButton("⛔ ᴊᴏɪɴ ɴᴏᴡ ⛔", url=invite_link.invite_link)
+                InlineKeyboardButton("📢 Join PYROFLiX", url=invite_link.invite_link)
             ]]
             if message.command[1] != "subscribe":
-                btn.append([InlineKeyboardButton("♻️ ᴛʀʏ ᴀɢᴀɪɴ ♻️", url=f"https://t.me/{temp.U_NAME}?start={message.command[1]}")])
+                btn.append([InlineKeyboardButton("♻️ Try Again", url=f"https://t.me/{temp.U_NAME}?start={message.command[1]}")])
             await client.send_photo(
                 chat_id=message.from_user.id,
                 photo=FORCESUB_IMG, 
@@ -224,12 +224,12 @@ async def start(client:Client, message):
         btn = []
         if channel != AUTH_CHANNEL and not await is_subscribed(client, message.from_user.id, channel):
             invite_link_custom = await client.create_chat_invite_link(channel)
-            btn.append([InlineKeyboardButton("⛔ ᴊᴏɪɴ ɴᴏᴡ ⛔", url=invite_link_custom.invite_link)])
+            btn.append([InlineKeyboardButton("📢 Join PYROFLiX", url=invite_link_custom.invite_link)])
         if not await is_req_subscribed(client, message):
             invite_link_default = await client.create_chat_invite_link(int(AUTH_CHANNEL), creates_join_request=True)
-            btn.append([InlineKeyboardButton("⛔ ᴊᴏɪɴ ɴᴏᴡ ⛔", url=invite_link_default.invite_link)])
+            btn.append([InlineKeyboardButton("📢 Join PYROFLiX", url=invite_link_default.invite_link)])
         if message.command[1] != "subscribe" and (await is_req_subscribed(client, message) is False or await is_subscribed(client, message.from_user.id, channel) is False):
-            btn.append([InlineKeyboardButton("♻️ ᴛʀʏ ᴀɢᴀɪɴ ♻️", url=f"https://t.me/{temp.U_NAME}?start={message.command[1]}")])
+            btn.append([InlineKeyboardButton("♻️ Try Again", url=f"https://t.me/{temp.U_NAME}?start={message.command[1]}")])
         if btn:
             await client.send_photo(
                 chat_id=message.from_user.id,
@@ -1101,6 +1101,7 @@ async def reset_group_command(client, message):
     reply_markup = InlineKeyboardMarkup(btn)
     await save_default_settings(grp_id)
     await message.reply_text('ꜱᴜᴄᴄᴇꜱꜱғᴜʟʟʏ ʀᴇꜱᴇᴛ ɢʀᴏᴜᴘ ꜱᴇᴛᴛɪɴɢꜱ...')
+
 
 
 
