@@ -337,7 +337,7 @@ async def season_search(client: Client, query: CallbackQuery):
     
     if n_offset== '':
         btn.append(
-            [InlineKeyboardButton(text="「  The End  」", callback_data="buttons")]
+            [InlineKeyboardButton(text="🌸「  THE END  」🌸", callback_data="buttons")]
         )
     elif n_offset == 0:
         btn.append(
@@ -436,7 +436,7 @@ async def year_search(client: Client, query: CallbackQuery):
     
     if n_offset== '':
         btn.append(
-            [InlineKeyboardButton(text="「  The End  」", callback_data="buttons")]
+            [InlineKeyboardButton(text="🌸「  THE END  」🌸", callback_data="buttons")]
         )
     elif n_offset == 0:
         btn.append(
@@ -533,7 +533,7 @@ async def quality_search(client: Client, query: CallbackQuery):
     ])    
     if n_offset== '':
         btn.append(
-            [InlineKeyboardButton(text="「  The End  」", callback_data="buttons")]
+            [InlineKeyboardButton(text="🌸「  THE END  」🌸", callback_data="buttons")]
         )
     elif n_offset == 0:
         btn.append(
@@ -640,7 +640,7 @@ async def lang_search(client: Client, query: CallbackQuery):
     ])    
     if n_offset== '':
         btn.append(
-            [InlineKeyboardButton(text="「  The End  」", callback_data="buttons")]
+            [InlineKeyboardButton(text="🌸「  THE END  」🌸", callback_data="buttons")]
         )
     elif n_offset == 0:
         btn.append(
@@ -788,7 +788,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
 	)
 	
     elif query.data == "buttons":
-        await query.answer("「  The End  」", show_alert=True)
+        await query.answer("🌸「  THE END  」🌸", show_alert=True)
 
     elif query.data == "pages":
         await query.answer("ᴛʜɪs ɪs ᴘᴀɢᴇs ʙᴜᴛᴛᴏɴ 😅")
@@ -1465,7 +1465,7 @@ async def auto_filter(client, msg, spoll=False , pm_mode = False):
      #           InlineKeyboardButton("ʟᴀɴɢᴜᴀɢᴇ", callback_data=f"languages#{key}#{offset}#{req}")
             ])
             btn.insert(1,[
-                InlineKeyboardButton("「  The End  」", callback_data="buttons")
+                InlineKeyboardButton("🌸「  THE END  」🌸", callback_data="buttons")
             ])
     else:
         btn.insert(0,[
@@ -1473,7 +1473,7 @@ async def auto_filter(client, msg, spoll=False , pm_mode = False):
             ])
 
         btn.insert(1,[
-            InlineKeyboardButton("「  The End  」", callback_data="buttons")
+            InlineKeyboardButton("🌸「  THE END  」🌸", callback_data="buttons")
         ])
                              
     if spoll:
@@ -1636,7 +1636,7 @@ async def advantage_spell_chok(message):
         for movie in movies
     ]
     buttons.append(
-        [InlineKeyboardButton(text="🚫 ᴄʟᴏsᴇ 🚫", callback_data='close_data')]
+        [InlineKeyboardButton(text="🚫 Close", callback_data='close_data')]
     )
     d = await message.reply_text(text=script.CUDNT_FND.format(message.from_user.mention), reply_markup=InlineKeyboardMarkup(buttons), reply_to_message_id=message.id)
     await asyncio.sleep(120)
