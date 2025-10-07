@@ -32,7 +32,7 @@ class script(object):
     FORCESUB_TEXT="""<b>
 👋 Just 3 Steps To Get Your File
 
-1️⃣ Join Our Channel
+1️⃣ Join Our Channel ➔ 📢 @PYROFLiX 
 2️⃣ Tap “Try Button” After Subscribing !
 3️⃣ Boom! Your File Will Be Sent 🎉📂</b>"""
     
@@ -388,6 +388,7 @@ Choose Correct Name Or Close ! 👇</b>"""
 ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : @PYROFLIX
 </b>""" 
     GROUP_C_TEXT = """<b><b>📮 Join Us Our Support Chat Group You Can Easily Chat With Admin In ThiS Group! ➔ <a href="https://t.me/PYROFLIX_SUPPORT">&lt;Click Here&gt;</a>\n\n❗ Urgent issue? Contact the admin immediately : @Opkills</b></b>"""
+
 
 
 
